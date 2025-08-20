@@ -9,7 +9,7 @@ body {
 
 .nav {
     height: 110px;
-    width: 120vw;
+    width: 100vw;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
@@ -108,6 +108,18 @@ body {
     border-radius: 90px;
     background-color: transparent;
 
+}
+.nav .sbar .ssbar p{
+    display: none;
+}
+.nav .s2nav{
+    display: flex;
+}
+
+.nav .s2nav img{
+    height: 60px;
+    width: 70px;
+    display: none;
 }
 
 
@@ -558,8 +570,202 @@ body {
     .nav .logo2 img{
         display: inline;
     }
+    .banner1 .scroll1 {
+    height: 270px;
+    width: 1450px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    /* position: relative; */
+
 }
-@media screen and (max-width:740px) {
+
+
+
+.banner1 .scroll1 .div1 {
+    height: 220px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll1 .div1 img {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.banner2 {
+    height: 250px;
+    width: 100vw;
+    /* background-color: violet; */
+    position: absolute;
+    top: 450px;
+    display: block;
+    margin-left: -30px;
+
+} 
+
+.banner2 .scroll2 {
+    height: 270px;
+    width: 1450px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    /* position: relative; */
+
+}
+
+
+.banner2 .scroll2 .div1 {
+    height: 220px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll2 .div1 img {
+    height: 220px;
+    width: 220px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+
+.banner3 {
+    height: 250px;
+    width: 100vw;
+    /* background-color: violet; */
+    position: absolute;
+    top: 790px;
+    display: block;
+    margin-left: -30px;
+
+}
+
+
+
+.banner3 .scroll3 {
+    height: 270px;
+    width: 1450px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    scrollbar-width: none;
+
+    /* position: relative; */
+
+}
+
+
+.banner3 .scroll3 .div1 {
+    height: 220px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll3 .div1 img {
+    height: 200px;
+    width: 230px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+
+.banner4 {
+    height: 250px;
+    width: 100vw;
+    /* background-color: violet; */
+    position: absolute;
+    top: 1150px;
+    display: block;
+    margin-left: -30px;
+
+}
+
+
+
+.banner4 .scroll4 {
+    height: 270px;
+    width: 1450px;
+    /* background-color: wheat; */
+    margin-left: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    /* position: relative; */
+    scrollbar-width: none;
+
+}
+
+
+.banner4 .scroll4 .div1 {
+    height: 220px;
+    width: 300px;
+    flex-shrink: 0;
+    position: relative;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+
+}
+
+.scroll4 .div1 img {
+    height: 200px;
+    width: 230px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.end {
+    height: 500px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 1510px;
+}
+.end .di{
+    display: block;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width:750px) {
     .nav .logo img
     {
         display: none;
@@ -594,17 +800,34 @@ body {
     }
     .sbar {
     height: 50px;
-    width: 3000px;
+    width: 800px;
     background-color: whitesmoke;
     border-radius: 25px;
-    display: flex;
-    align-content: center;
-    justify-content: space-between;
-    margin-left: 180px;
+    /* display: flex; */
+    justify-content: center;
+    padding-top: 20px;
+    margin-left: 260px;
 }
-.sbar .ssbar p
-{
-    margin-left: 200px;
+.nav .sbar .ssbar p{
+    display: inline;
 }
 
+.nav .s2nav img{
+    height: 60px;
+    width: 70px;
+    display: inline;
+
+}
+.nav .s2nav{
+    width: 700px;
+    gap: 50px;
+    padding-left: 350px;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: -30px;
+}
+.nav{
+    display: block;
+    height:100px ;
+}
 }
